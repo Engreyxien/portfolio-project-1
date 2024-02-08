@@ -18,14 +18,15 @@ header {
   background-color: #124559;
 }
 header div {
-  width: 10%;
+  height: 1px;
 }
 header img {
-  max-width: 50%;
+  max-width: 10%;
   border-radius: 50%;
   display: center;
-  right: 0;
+  padding: 0 0.5rem;
 }
+
 h1 {
   color: #01161E#495f41;
   font-size: 32px;
@@ -55,7 +56,6 @@ h4 {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   margin-right: auto;
   margin-left: auto;
   width: 50%;
@@ -87,9 +87,10 @@ h4 {
 
 header #auth {
   display: flex;
-  gap: 1rem;
+  gap: 10px;
   align-items: center;
   margin-left: auto;
+  margin-top: 15px;
 }
 
 header #auth button {
@@ -156,7 +157,6 @@ section#portfolio {
   color: #221d23;
   padding: 10;
   margin: 10;
-  height: 300vh;
   display: flex;
   justify-content: center;
   align-items: center;
