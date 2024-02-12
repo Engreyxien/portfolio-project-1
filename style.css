@@ -115,16 +115,31 @@ section#aboutme {
   background-color: #aec3b0;
   color: #221d23;
 }
+
+section#aboutme div {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  width: 700px;
+  height: 500px;
+  border: 1px solid gray;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 section#aboutme p {
-  max-width: 600px;
   line-height: 1.5rem;
   text-align: center;
 }
 
 section#aboutme img {
   position: absolute;
+  margin-right: 20px;
   width: 500px;
-  right: 20px;
+  right: 100px;
   z-index: 1;
   border-radius: 5px;
 }
@@ -181,6 +196,7 @@ section#portfolio p {
   max-width: 600px;
   margin-bottom: 1rem;
 }
+
 section#portfolio .row {
   display: flex;
   justify-content: center;
@@ -274,7 +290,7 @@ section#contact-me .card form textarea {
   padding: 1rem 2rem;
   font-weight: bold;
   font-size: 16px;
-  color: #f1f1f1;
+  color: #01161e;
 }
 
 footer img {
